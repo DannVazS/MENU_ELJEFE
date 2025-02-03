@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstilosELJEFE.css">
+    <title>El Jefe</title>
+</head>
+<body>
+    <header>
+        <h1>EL JEFE</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Men&uacute;</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenidos a nuestra cocina econ&oacute;mica, donde encontrar&aacute;s los mejores platillos a precios accesibles.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Men&uacute;</h2>
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Tortas</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Torta Chica 1 ingrediente</strong> - $30 <br>(Salchicha, Pierna, Jam&oacute;n con queso, Huevo con Chorizo, Mole Verde)</li>
+                    <li><strong>Torta Chica 1 ingrediente</strong> - $35 <br>(Milanesa de cerdo, Milanesa de Pollo, Chorizo)</li>
+                    <li><strong>Torta Chica 2 o m&aacute;s ingredientes</strong> - $45</li>
+                    <li><strong>Torta Grande 1 ingrediente</strong> - $55 <br>(Salchicha, Pierna, Jam&oacute;n con queso, Huevo con Chorizo, Mole Verde)</li>
+                    <li><strong>Torta Grande 1 ingrediente</strong> - $60 <br>(Milanesa de cerdo, Milanesa de Pollo, Chorizo)</li>
+                    <li><strong>Torta Grande 2 o m&aacute;s ingredientes</strong> - $70</li>
+                    <li><strong>Queso extra</strong> - + $5</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Tacos</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Taco de Asada</strong> - $25 <br>(Bistec, Longaniza, Cecina Adobada, Cecina Natural, Campechano)</li>
+                    <li><strong>Orden de 4 Tacos Dorados</strong> - $35 <br>(Mole Verde, Tinga, Pollo, Combinados)</li>
+                    <li><strong>Taco Dorado 1 pza</strong> - $9</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Enchiladas y Chilaquiles</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Enchiladas</strong> - $55 <br>(Pollo, Milanesa o Chorizo)</li>
+                    <li><strong>Chilaquiles</strong> - $55 <br>(Pollo, Milanesa o Chorizo)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Hamburguesas</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Hamburguesa Sencilla</strong> - $40 <br>(Pan, Carne, Queso Amarillo, Verdura)</li>
+                    <li><strong>Hamburguesa Especial</strong> - $70 <br>(Pan, Carne, Queso Amarillo, Queso Oaxaca, Jam&oacute;n, Verdura, acompa&ntilde;ada de salchipapas)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Hot Dogs</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Hot Dog 1 pz</strong> - $19 <br>(Pan, Salchicha, Verdura, Aderezo)</li>
+                    <li><strong>Orden de 3 Hot Dogs</strong> - $55</li>
+                    <li><strong>Salchipapas</strong> - $35</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>S&aacute;ndwiches</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>S&aacute;ndwich tradicional</strong> - $20 <br>(Jam&oacute;n con queso)</li>
+                    <li><strong>S&aacute;ndwich especial</strong> - $25 <br>(Chorizo, Salchicha, Pierna, Huevo con Chorizo o Milanesa)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Quesadillas</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Orden de 3 piezas</strong> - $35 <br>(Jam&oacute;n con queso en tortilla de harina y pico de gallo)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Men&uacute; del d&iacute;a</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Incluye: Sopa o Arroz, Guisado del d&iacute;a, Frijoles, Agua de sabor</strong> - $75</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-categoria" onclick="toggleMenu(this)">
+            <h3>Bebidas</h3>
+            <div class="menu-contenido">
+                <ul>
+                    <li><strong>Coca-cola 500 ml</strong> - $20</li>
+                    <li><strong>Coca-cola 600 ml</strong> - $23</li>
+                    <li><strong>Caf&eacute;</strong> - $15</li>
+                    <li><strong>Caf&eacute; con leche</strong> - $18</li>
+                    <li><strong>Boing</strong> - $17</li>
+                    <li><strong>Agua del d&iacute;a (500 ml)</strong> - $18</li>
+                    <li><strong>Agua del d&iacute;a (1 Lt)</strong> - $35</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Direcci&oacute;n: Av. Paseo San Isidro #820, Metepec, EDOMEX.</p>
+        <p>Tel&eacute;fono: 722 491 9703</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 EL JEFE. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu(categoriaSeleccionada) {
+            // Cierra todas las categorías primero
+            document.querySelectorAll('.menu-categoria').forEach(categoria => {
+                if (categoria !== categoriaSeleccionada) {
+                    categoria.classList.remove("activo");
+                }
+            });
+
+            // Abre o cierra la categoría seleccionada
+            categoriaSeleccionada.classList.toggle("activo");
+        }
+    </script>
+</body>
+</html>

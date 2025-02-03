@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige claro como fondo */
+    color: #b46906; /* Café oscuro para el texto */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #b46906; /* Café medio */
+    color: #fff8e7; /* Beige claro para el texto */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff8e7; /* Beige claro para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d2b48c; /* Café claro al hacer hover */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #b46906; /* Beige claro para el fondo de las secciones */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: white; /* Café medio para los títulos */
+    border-bottom: 2px solid #d2b48c; /* Borde inferior en café claro */
+    padding-bottom: 5px;
+}
+
+section p {
+    color: white; /* Café oscuro para el texto */
+}
+
+/* Estilos para el menú */
+.menu-categoria {
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #d2b48c; /* Borde inferior en café claro */
+    padding-bottom: 10px;
+}
+
+.menu-categoria h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: white; /* Café medio para los títulos de categoría */
+}
+
+.menu-contenido {
+    display: none;
+    padding-top: 10px;
+}
+
+.menu-categoria.activo .menu-contenido {
+    display: block;
+}
+
+.menu-contenido ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-contenido ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white; /* Beige claro para los elementos del menú */
+    border-left: 4px solid #b46906; /* Borde izquierdo en café medio */
+    transition: background-color 0.3s ease;
+}
+
+.menu-contenido ul li:hover {
+    background-color: #f8b761; /* Café claro al hacer hover */
+}
+
+.menu-contenido ul li strong {
+    color: #744202; /* Café medio para el texto fuerte */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #b46906; /* Café medio */
+    color: white; /* Beige claro para el texto */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+footer p {
+    margin: 0;
+}
