@@ -144,23 +144,10 @@
                     categoria.classList.remove("activo");
                 }
             });
-        }
 
             // Abre o cierra la categoría seleccionada
             categoriaSeleccionada.classList.toggle("activo");
-
-            function contarElementos() {
-                const categorias = document.querySelectorAll('.menu-categoria');
-                categorias.forEach(categoria => {
-                    const elementos = categoria.querySelectorAll('li').length; // Cuenta los elementos 'li' dentro de cada categoría
-                    const encabezado = categoria.querySelector('h3'); // Selecciona el encabezado de la categoría
-                    encabezado.innerHTML += ` - ${elementos} opciones`; // Añade el conteo al título de la categoría
-                });
-            }
-
-            window.onload=function(){
-                contarElementos();
-            }
+        }
     </script>
 </body>
 </html>
